@@ -1,0 +1,14 @@
+{
+  "name": "otp-backend",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.8"
+  }
+}

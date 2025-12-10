@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075278178468",
+    "project_id": "flutter-tasker-pro",
+    "storage_bucket": "flutter-tasker-pro.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075278178468:android:e798c1c732ad2ea554de31",
+        "android_client_info": {
+          "package_name": "com.fluttertaskerpro.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgW-2PGLdC4d-ADbLdsl-6kO7YH0aeiM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
