@@ -1,24 +1,16 @@
 {
   "version": 2,
   "name": "flutter-tasker-pro-docs",
-  "builds": [
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
     {
-      "src": "docs/**",
-      "use": "@vercel/static"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/privacy-policy.html",
-      "dest": "/docs/privacy-policy.html"
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy.html"
     },
     {
-      "src": "/terms-and-conditions.html",
-      "dest": "/docs/terms-and-conditions.html"
-    },
-    {
-      "src": "/",
-      "dest": "/docs/index.html"
+      "source": "/terms-and-conditions",
+      "destination": "/terms-and-conditions.html"
     }
   ],
   "headers": [
@@ -36,6 +28,10 @@
         {
           "key": "X-XSS-Protection",
           "value": "1; mode=block"
+        },
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
         }
       ]
     }
