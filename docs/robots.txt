@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://atif327.github.io/Tasker-pro/sitemap.xml
